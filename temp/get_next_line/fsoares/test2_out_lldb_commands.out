@@ -1,0 +1,172 @@
+(lldb) target create "test2.out"
+Current executable set to '/Users/yboutsli/francinette/temp/get_next_line/fsoares/test2.out' (x86_64).
+(lldb) command source -s 0 'test2_out_lldb_commands'
+Executing commands in '/Users/yboutsli/francinette/temp/get_next_line/fsoares/test2_out_lldb_commands'.
+(lldb) image lookup --address _add_malloc+757
+      Address: test2.out[0x0000000100009605] (test2.out.__TEXT.__text + 28133)
+      Summary: test2.out`_add_malloc + 757 at malloc_mock.c:29:8
+(lldb) image lookup --address malloc+307
+      Address: test2.out[0x0000000100009303] (test2.out.__TEXT.__text + 27363)
+      Summary: test2.out`malloc + 307 at malloc_mock.c:75:10
+(lldb) image lookup --address set_left+1057
+      Address: test2.out[0x0000000100010221] (test2.out.__TEXT.__text + 55809)
+      Summary: test2.out`set_left + 1057 at get_next_line.c:96:6
+(lldb) image lookup --address get_next_line+545
+      Address: test2.out[0x000000010000fbf1] (test2.out.__TEXT.__text + 54225)
+      Summary: test2.out`get_next_line + 545 at get_next_line.c:126:9
+(lldb) image lookup --address null_check_gnl+50
+      Address: test2.out[0x000000010000f6d2] (test2.out.__TEXT.__text + 52914)
+      Summary: test2.out`null_check_gnl + 50 at file_utils.c:116:7
+(lldb) image lookup --address main+9591
+      Address: test2.out[0x0000000100005a17] (test2.out.__TEXT.__text + 12791)
+      Summary: test2.out`main + 9591 at tester.c:135:2
+(lldb) image lookup --address _add_malloc+757
+      Address: test2.out[0x0000000100009605] (test2.out.__TEXT.__text + 28133)
+      Summary: test2.out`_add_malloc + 757 at malloc_mock.c:29:8
+(lldb) image lookup --address malloc+307
+      Address: test2.out[0x0000000100009303] (test2.out.__TEXT.__text + 27363)
+      Summary: test2.out`malloc + 307 at malloc_mock.c:75:10
+(lldb) image lookup --address ft_substr+41
+      Address: test2.out[0x0000000100010d09] (test2.out.__TEXT.__text + 58601)
+      Summary: test2.out`ft_substr + 41 at get_next_line_utils.c:80:6
+(lldb) image lookup --address set_left+892
+      Address: test2.out[0x000000010001017c] (test2.out.__TEXT.__text + 55644)
+      Summary: test2.out`set_left + 892 at get_next_line.c:90:9
+(lldb) image lookup --address get_next_line+545
+      Address: test2.out[0x000000010000fbf1] (test2.out.__TEXT.__text + 54225)
+      Summary: test2.out`get_next_line + 545 at get_next_line.c:126:9
+(lldb) image lookup --address null_check_gnl+542
+      Address: test2.out[0x000000010000f8be] (test2.out.__TEXT.__text + 53406)
+      Summary: test2.out`null_check_gnl + 542 at file_utils.c:138:8
+(lldb) image lookup --address main+9591
+      Address: test2.out[0x0000000100005a17] (test2.out.__TEXT.__text + 12791)
+      Summary: test2.out`main + 9591 at tester.c:135:2
+(lldb) image lookup --address _add_malloc+757
+      Address: test2.out[0x0000000100009605] (test2.out.__TEXT.__text + 28133)
+      Summary: test2.out`_add_malloc + 757 at malloc_mock.c:29:8
+(lldb) image lookup --address malloc+307
+      Address: test2.out[0x0000000100009303] (test2.out.__TEXT.__text + 27363)
+      Summary: test2.out`malloc + 307 at malloc_mock.c:75:10
+(lldb) image lookup --address get_next_line+334
+      Address: test2.out[0x000000010000fb1e] (test2.out.__TEXT.__text + 54014)
+      Summary: test2.out`get_next_line + 334 at get_next_line.c:118:9
+(lldb) image lookup --address null_check_gnl+50
+      Address: test2.out[0x000000010000f6d2] (test2.out.__TEXT.__text + 52914)
+      Summary: test2.out`null_check_gnl + 50 at file_utils.c:116:7
+(lldb) image lookup --address main+9591
+      Address: test2.out[0x0000000100005a17] (test2.out.__TEXT.__text + 12791)
+      Summary: test2.out`main + 9591 at tester.c:135:2
+(lldb) image lookup --address _add_malloc+757
+      Address: test2.out[0x0000000100009605] (test2.out.__TEXT.__text + 28133)
+      Summary: test2.out`_add_malloc + 757 at malloc_mock.c:29:8
+(lldb) image lookup --address malloc+307
+      Address: test2.out[0x0000000100009303] (test2.out.__TEXT.__text + 27363)
+      Summary: test2.out`malloc + 307 at malloc_mock.c:75:10
+(lldb) image lookup --address ft_substr+41
+      Address: test2.out[0x0000000100010d09] (test2.out.__TEXT.__text + 58601)
+      Summary: test2.out`ft_substr + 41 at get_next_line_utils.c:80:6
+(lldb) image lookup --address set_left+892
+      Address: test2.out[0x000000010001017c] (test2.out.__TEXT.__text + 55644)
+      Summary: test2.out`set_left + 892 at get_next_line.c:90:9
+(lldb) image lookup --address get_next_line+545
+      Address: test2.out[0x000000010000fbf1] (test2.out.__TEXT.__text + 54225)
+      Summary: test2.out`get_next_line + 545 at get_next_line.c:126:9
+(lldb) image lookup --address null_check_gnl+542
+      Address: test2.out[0x000000010000f8be] (test2.out.__TEXT.__text + 53406)
+      Summary: test2.out`null_check_gnl + 542 at file_utils.c:138:8
+(lldb) image lookup --address main+9591
+      Address: test2.out[0x0000000100005a17] (test2.out.__TEXT.__text + 12791)
+      Summary: test2.out`main + 9591 at tester.c:135:2
+(lldb) image lookup --address _add_malloc+757
+      Address: test2.out[0x0000000100009605] (test2.out.__TEXT.__text + 28133)
+      Summary: test2.out`_add_malloc + 757 at malloc_mock.c:29:8
+(lldb) image lookup --address malloc+307
+      Address: test2.out[0x0000000100009303] (test2.out.__TEXT.__text + 27363)
+      Summary: test2.out`malloc + 307 at malloc_mock.c:75:10
+(lldb) image lookup --address set_left+1057
+      Address: test2.out[0x0000000100010221] (test2.out.__TEXT.__text + 55809)
+      Summary: test2.out`set_left + 1057 at get_next_line.c:96:6
+(lldb) image lookup --address get_next_line+545
+      Address: test2.out[0x000000010000fbf1] (test2.out.__TEXT.__text + 54225)
+      Summary: test2.out`get_next_line + 545 at get_next_line.c:126:9
+(lldb) image lookup --address null_check_gnl+50
+      Address: test2.out[0x000000010000f6d2] (test2.out.__TEXT.__text + 52914)
+      Summary: test2.out`null_check_gnl + 50 at file_utils.c:116:7
+(lldb) image lookup --address main+9591
+      Address: test2.out[0x0000000100005a17] (test2.out.__TEXT.__text + 12791)
+      Summary: test2.out`main + 9591 at tester.c:135:2
+(lldb) image lookup --address _add_malloc+757
+      Address: test2.out[0x0000000100009605] (test2.out.__TEXT.__text + 28133)
+      Summary: test2.out`_add_malloc + 757 at malloc_mock.c:29:8
+(lldb) image lookup --address malloc+307
+      Address: test2.out[0x0000000100009303] (test2.out.__TEXT.__text + 27363)
+      Summary: test2.out`malloc + 307 at malloc_mock.c:75:10
+(lldb) image lookup --address ft_substr+41
+      Address: test2.out[0x0000000100010d09] (test2.out.__TEXT.__text + 58601)
+      Summary: test2.out`ft_substr + 41 at get_next_line_utils.c:80:6
+(lldb) image lookup --address set_left+892
+      Address: test2.out[0x000000010001017c] (test2.out.__TEXT.__text + 55644)
+      Summary: test2.out`set_left + 892 at get_next_line.c:90:9
+(lldb) image lookup --address get_next_line+545
+      Address: test2.out[0x000000010000fbf1] (test2.out.__TEXT.__text + 54225)
+      Summary: test2.out`get_next_line + 545 at get_next_line.c:126:9
+(lldb) image lookup --address null_check_gnl+542
+      Address: test2.out[0x000000010000f8be] (test2.out.__TEXT.__text + 53406)
+      Summary: test2.out`null_check_gnl + 542 at file_utils.c:138:8
+(lldb) image lookup --address main+9591
+      Address: test2.out[0x0000000100005a17] (test2.out.__TEXT.__text + 12791)
+      Summary: test2.out`main + 9591 at tester.c:135:2
+(lldb) image lookup --address _add_malloc+757
+      Address: test2.out[0x0000000100009605] (test2.out.__TEXT.__text + 28133)
+      Summary: test2.out`_add_malloc + 757 at malloc_mock.c:29:8
+(lldb) image lookup --address malloc+307
+      Address: test2.out[0x0000000100009303] (test2.out.__TEXT.__text + 27363)
+      Summary: test2.out`malloc + 307 at malloc_mock.c:75:10
+(lldb) image lookup --address get_next_line+334
+      Address: test2.out[0x000000010000fb1e] (test2.out.__TEXT.__text + 54014)
+      Summary: test2.out`get_next_line + 334 at get_next_line.c:118:9
+(lldb) image lookup --address null_check_gnl+50
+      Address: test2.out[0x000000010000f6d2] (test2.out.__TEXT.__text + 52914)
+      Summary: test2.out`null_check_gnl + 50 at file_utils.c:116:7
+(lldb) image lookup --address main+9591
+      Address: test2.out[0x0000000100005a17] (test2.out.__TEXT.__text + 12791)
+      Summary: test2.out`main + 9591 at tester.c:135:2
+(lldb) image lookup --address _add_malloc+757
+      Address: test2.out[0x0000000100009605] (test2.out.__TEXT.__text + 28133)
+      Summary: test2.out`_add_malloc + 757 at malloc_mock.c:29:8
+(lldb) image lookup --address malloc+307
+      Address: test2.out[0x0000000100009303] (test2.out.__TEXT.__text + 27363)
+      Summary: test2.out`malloc + 307 at malloc_mock.c:75:10
+(lldb) image lookup --address ft_substr+41
+      Address: test2.out[0x0000000100010d09] (test2.out.__TEXT.__text + 58601)
+      Summary: test2.out`ft_substr + 41 at get_next_line_utils.c:80:6
+(lldb) image lookup --address set_left+892
+      Address: test2.out[0x000000010001017c] (test2.out.__TEXT.__text + 55644)
+      Summary: test2.out`set_left + 892 at get_next_line.c:90:9
+(lldb) image lookup --address get_next_line+545
+      Address: test2.out[0x000000010000fbf1] (test2.out.__TEXT.__text + 54225)
+      Summary: test2.out`get_next_line + 545 at get_next_line.c:126:9
+(lldb) image lookup --address null_check_gnl+542
+      Address: test2.out[0x000000010000f8be] (test2.out.__TEXT.__text + 53406)
+      Summary: test2.out`null_check_gnl + 542 at file_utils.c:138:8
+(lldb) image lookup --address main+9591
+      Address: test2.out[0x0000000100005a17] (test2.out.__TEXT.__text + 12791)
+      Summary: test2.out`main + 9591 at tester.c:135:2
+(lldb) image lookup --address _add_malloc+757
+      Address: test2.out[0x0000000100009605] (test2.out.__TEXT.__text + 28133)
+      Summary: test2.out`_add_malloc + 757 at malloc_mock.c:29:8
+(lldb) image lookup --address malloc+307
+      Address: test2.out[0x0000000100009303] (test2.out.__TEXT.__text + 27363)
+      Summary: test2.out`malloc + 307 at malloc_mock.c:75:10
+(lldb) image lookup --address set_left+1057
+      Address: test2.out[0x0000000100010221] (test2.out.__TEXT.__text + 55809)
+      Summary: test2.out`set_left + 1057 at get_next_line.c:96:6
+(lldb) image lookup --address get_next_line+545
+      Address: test2.out[0x000000010000fbf1] (test2.out.__TEXT.__text + 54225)
+      Summary: test2.out`get_next_line + 545 at get_next_line.c:126:9
+(lldb) image lookup --address null_check_gnl+50
+      Address: test2.out[0x000000010000f6d2] (test2.out.__TEXT.__text + 52914)
+      Summary: test2.out`null_check_gnl + 50 at file_utils.c:116:7
+(lldb) image lookup --address main+9591
+      Address: test2.out[0x0000000100005a17] (test2.out.__TEXT.__text + 12791)
+      Summary: test2.out`main + 9591 at tester.c:135:2

@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/yboutsli/Desktop/ev_hicham",
+      "program": "/Users/yboutsli/Desktop/ev_hicham/build/Debug/outDebug"
+    }
+  ]
+}
